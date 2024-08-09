@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Sun Mar 24 13:01:07 2024
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : MY_DECODER_4to16
+Top-level Entity Name : MY_DECODER_4to16
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 16
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 20
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

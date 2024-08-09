@@ -1,0 +1,13 @@
+|slot_machine
+C => Selector3.IN3
+C => Selector2.IN2
+B1 => process_1~1.IN0
+B1 => process_1~0.IN1
+B2 => n_state~1.DATAA
+B2 => process_1~0.IN0
+B2 => n_state~0.DATAA
+A <= process_1~2.DB_MAX_OUTPUT_PORT_TYPE
+T1 <= T1$latch.DB_MAX_OUTPUT_PORT_TYPE
+T2 <= T2$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

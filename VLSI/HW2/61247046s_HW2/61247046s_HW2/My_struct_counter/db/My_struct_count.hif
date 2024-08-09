@@ -1,0 +1,145 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+7
+3331
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+My_DFF
+# storage
+db|My_struct_count.(1).cnf
+db|My_struct_count.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+My_DFF.vhd
+dbf9d1b7cf1737f96b5de9c1b291a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(q_in)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(q_out)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+My_DFF:C1
+}
+# lmf
+..|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+counter
+# storage
+db|My_struct_count.(2).cnf
+db|My_struct_count.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+counter.vhd
+31de4c1d9c831c065de374a22b36362
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(add_a)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(add_b)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(sum)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+counter:C2
+}
+# lmf
+..|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+My_struct_count
+# storage
+db|My_struct_count.(0).cnf
+db|My_struct_count.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+My_struct_count.vhd
+17f1bcf2f4c4c2a42240bf1c58602d4f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+..|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+

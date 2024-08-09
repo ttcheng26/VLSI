@@ -1,0 +1,19 @@
+|My_count
+clk => Q_in[7].CLK
+clk => Q_in[6].CLK
+clk => Q_in[5].CLK
+clk => Q_in[4].CLK
+clk => Q_in[3].CLK
+clk => Q_in[2].CLK
+clk => Q_in[1].CLK
+clk => Q_in[0].CLK
+Q[0] <= Q_in[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q_in[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q_in[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q_in[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q_in[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q_in[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q_in[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q_in[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

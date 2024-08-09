@@ -1,0 +1,66 @@
+|My_struct_count
+clk => My_DFF:C1.clk
+Q[0] <= My_DFF:C1.Q_out[0]
+Q[1] <= My_DFF:C1.Q_out[1]
+Q[2] <= My_DFF:C1.Q_out[2]
+Q[3] <= My_DFF:C1.Q_out[3]
+Q[4] <= My_DFF:C1.Q_out[4]
+Q[5] <= My_DFF:C1.Q_out[5]
+Q[6] <= My_DFF:C1.Q_out[6]
+Q[7] <= My_DFF:C1.Q_out[7]
+
+
+|My_struct_count|My_DFF:C1
+clk => Q_out[7]~reg0.CLK
+clk => Q_out[6]~reg0.CLK
+clk => Q_out[5]~reg0.CLK
+clk => Q_out[4]~reg0.CLK
+clk => Q_out[3]~reg0.CLK
+clk => Q_out[2]~reg0.CLK
+clk => Q_out[1]~reg0.CLK
+clk => Q_out[0]~reg0.CLK
+Q_in[0] => Q_out[0]~reg0.DATAIN
+Q_in[1] => Q_out[1]~reg0.DATAIN
+Q_in[2] => Q_out[2]~reg0.DATAIN
+Q_in[3] => Q_out[3]~reg0.DATAIN
+Q_in[4] => Q_out[4]~reg0.DATAIN
+Q_in[5] => Q_out[5]~reg0.DATAIN
+Q_in[6] => Q_out[6]~reg0.DATAIN
+Q_in[7] => Q_out[7]~reg0.DATAIN
+Q_out[0] <= Q_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[1] <= Q_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[2] <= Q_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[3] <= Q_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[4] <= Q_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[5] <= Q_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[6] <= Q_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[7] <= Q_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|My_struct_count|counter:C2
+add_A[0] => Add0.IN8
+add_A[1] => Add0.IN7
+add_A[2] => Add0.IN6
+add_A[3] => Add0.IN5
+add_A[4] => Add0.IN4
+add_A[5] => Add0.IN3
+add_A[6] => Add0.IN2
+add_A[7] => Add0.IN1
+add_B[0] => Add0.IN16
+add_B[1] => Add0.IN15
+add_B[2] => Add0.IN14
+add_B[3] => Add0.IN13
+add_B[4] => Add0.IN12
+add_B[5] => Add0.IN11
+add_B[6] => Add0.IN10
+add_B[7] => Add0.IN9
+sum[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity My_count is
+port(
+	 clk: in std_logic;
+	 Q: out std_logic_vector(7 downto 0));
+end My_count;
+
+architecture behavior of  My_count is
+signal Q_in: std_logic_vector(7 downto 0) := "00000000";
+begin
+	process(clk)
+	 if(clk'EVENT and clk='1') then
+	   Q_in <= Q_in + "011";
+	 end if;
+	end process;
+	Q <= Q_in;
+end behavior;
